@@ -1,0 +1,8 @@
+.accordion-button {
+  background: white !important;
+  padding: 0;
+}
+
+.MuiAccordionSummary-root {
+  height: 50px !important;
+}

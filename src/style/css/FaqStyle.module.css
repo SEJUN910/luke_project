@@ -1,0 +1,36 @@
+/* FaqMain */
+
+.FaqBoxSet {
+  padding: 10px;
+}
+
+:global .ql-imageLink::before {
+  content: "URL";
+  font-size: small;
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+:global .ql-editor {
+  white-space: normal !important;
+}
+
+/* FaqList */
+.FaqListBox {
+  width: 400px;
+}
+
+.dot {
+  display: list-item;
+  list-style-type: disc;
+}
+
+/* FaqRecent */
+.FaqRecentBox {
+  width: 400px;
+}
+
+/* FaqShow */
+.ansBox {
+  min-height: 300px;
+}

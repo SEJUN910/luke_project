@@ -1,0 +1,60 @@
+/* CrmList */
+
+.crmListBox {
+  min-width: 360px !important;
+  background: #f0f0f0;
+}
+
+.active {
+  background-color: #e0e0e0 !important;
+}
+/* CrmHistory */
+
+.CrmHistoryBox {
+  min-width: 450px;
+  max-width: 500px;
+  overflow: auto;
+  height: 80vh;
+}
+
+.img_box {
+  height: 70px;
+  width: 70px;
+}
+
+/* CrmShow */
+
+.ans_box {
+  min-height: 300px;
+}
+
+:global .ql-editor {
+  min-height: 300px;
+}
+
+.input_num {
+  width: 120px;
+}
+
+.input_text {
+  width: 250px;
+}
+
+.input_email {
+  width: 200px;
+}
+
+.listShowBox {
+  width: 550px !important;
+}
+
+/* CrmAnswerBox */
+
+.templateList:hover {
+  background: #cfd8dc;
+}
+
+.templateListBtn:hover {
+  background: skyblue;
+  color: white;
+}

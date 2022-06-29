@@ -1,0 +1,40 @@
+/* staffmessage */
+
+.Message_askingCount,
+.Message_doingCount {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Message_askingCount::before {
+  content: attr(data-count);
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.2em;
+  height: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fa5050;
+  color: white;
+}
+
+.Message_doingCount::before {
+  content: attr(data-count);
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.2em;
+  height: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #5080fa;
+  color: white;
+}

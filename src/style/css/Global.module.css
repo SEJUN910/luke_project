@@ -1,0 +1,68 @@
+:global .vh90 {
+  height: 90vh;
+}
+
+:global .vh80 {
+  height: 80vh;
+}
+
+:global .vh40 {
+  height: 40vh;
+}
+
+:global .vh20 {
+  height: 20vh;
+}
+
+:global .text_s {
+  font-size: 0.7rem;
+}
+
+:global .text_sm {
+  font-size: 0.8rem;
+}
+
+:global .text_m {
+  font-size: 0.9rem;
+}
+
+:global .text_ml {
+  font-size: 1rem;
+}
+
+:global .text_l {
+  font-size: 1.1rem;
+}
+
+:global .add_bar::after {
+  border-right: 1px solid #c9c9c9;
+  content: "";
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+:global .before_bar::before {
+  border-right: 1px solid #c9c9c9;
+  content: "";
+  margin-left: -2px;
+  margin-right: 8px;
+}
+
+:global .miniBox {
+  width: auto;
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+:global .sortCS {
+  border-top: 4px solid #ffcc80;
+}
+
+:global .sortPersonal {
+  border-top: 4px solid #9fa8da;
+}
+
+:global .sortManager {
+  border-top: 4px solid #ce93d8;
+}

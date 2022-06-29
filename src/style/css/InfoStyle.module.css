@@ -1,0 +1,52 @@
+/* InfoMain */
+
+.InfoBoxBig {
+  position: fixed !important;
+  z-index: 1;
+}
+
+/* InfoBasic */
+
+.listBox {
+  padding: 10px;
+}
+
+.listNone {
+  list-style: none;
+}
+
+.infoBasicBox {
+  min-width: 360px !important;
+  max-width: 400px;
+  background: #f0f0f0;
+  overflow-y: auto;
+}
+
+/* InfoOrder */
+
+.InfoOrderBox {
+  min-width: 500px !important;
+  max-width: 550px;
+  background: #d1e2e8;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.imgBox {
+  height: 70px;
+  width: 70px;
+}
+
+.imgList {
+  height: 70px;
+  width: 70px;
+}
+
+/* InfoCrm */
+
+.InfoCrmBox {
+  min-width: 450px;
+  max-width: 500px;
+  background: #f2faf6;
+  overflow: auto;
+}
